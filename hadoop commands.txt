@@ -1,0 +1,7 @@
+hadoop fs -put txt.txt out
+
+hadoop jar file.jar Packagename.classname out ds
+
+hadoop fs -ls ds
+
+hadoop fs -cat ds/part-r-00000
